@@ -12,7 +12,7 @@ public with sharing class carController {
     }
     @AuraEnabled(Cacheable=true)
     public static List<Car__c> getCars(Filters filters){
-        System.debug('Check Sync Test 3.3');
+        System.debug('Check Sync Test 2.2');
         String key, whereClause ='';
         Decimal maxPrice;
         String[] categories, makeType, criteria = new List<String>{};
